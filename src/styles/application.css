@@ -1,0 +1,62 @@
+/* Stylesheets */
+@import 'utilities/normalize';
+@import 'utilities/typographies';
+
+:root {
+  --green-light: #c0dfd9;
+  --green: #808F8C;
+  --silver: #e9ece5;
+  --black: #1A2926;
+}
+
+html {
+  font-family: var(--openSans);
+  box-sizing: border-box;
+  background-color: var(--silver);
+  color: var(--black);
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+  font-family: var(--openSansRegular);
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.left-side {
+  position: fixed;
+  width: 240px;
+  top: 40px;
+}
+
+.profile__image {
+  width: 100%;
+  border-radius: 100%;
+}
+
+.right-side {
+  float: right;
+  width: 70%;
+  padding: 40px 0 40px 20px;
+}

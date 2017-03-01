@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'Open Sans Light';
+  font-style: normal;
+  src: url('webfonts/OpenSansLight.woff') format('woff'), url('webfonts/OpenSansLight.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  font-style: normal;
+  src: url('webfonts/OpenSansRegular.woff') format('woff'), url('webfonts/OpenSansRegular.woff2') format('woff2');
+}
+
+:root {
+  --openSans:         'Open Sans Light', Arial, Helvetica, sans-serif;
+  --openSansRegular:  'Open Sans Regular', Arial, Helvetica, sans-serif;
+}
