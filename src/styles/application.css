@@ -79,6 +79,7 @@ a {
   text-align: center;
   vertical-align: top;
   margin-top: 20px;
+  padding: 0 5px;
 }
 
 .services i.fa {
