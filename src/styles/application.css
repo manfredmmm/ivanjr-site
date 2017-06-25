@@ -35,8 +35,16 @@ h5 {
   font-family: var(--openSansRegular);
 }
 
+h1 {
+  margin-right: 10px;
+}
+
 h2 {
   font-size: 1.3em;
+}
+
+h1, h2 {
+  display: inline-block;
 }
 
 b {
