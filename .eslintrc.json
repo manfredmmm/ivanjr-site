@@ -2,7 +2,8 @@
   "extends": "airbnb",
   "rules": {
     "comma-dangle": "off",
-    "no-underscore-dangle": "off"
+    "no-underscore-dangle": "off",
+    "linebreak-style": ["error", "windows"]
   },
   "globals": {
     "document": false
