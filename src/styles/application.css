@@ -6,8 +6,10 @@
 :root {
   --green-light: #c0dfd9;
   --green: #808F8C;
-  --silver: #e9ece5;
+  /* --silver: #e9ece5; */
+  --silver: #D7EADD;
   --black: #1A2926;
+  --link: #178393   ;
 }
 
 html {
@@ -39,12 +41,14 @@ h1 {
   margin-right: 10px;
 }
 
+h1,
 h2 {
   font-size: 1.3em;
+  font-weight: normal;
 }
 
-h1, h2 {
-  display: inline-block;
+h5 {
+  font-weight: normal;
 }
 
 b {
@@ -56,7 +60,8 @@ p {
 }
 
 a {
-  color: var(--green);
+  /* color: var(--green); */
+  color: var(--link);
   text-decoration: none;
   font-family: var(--openSansRegular);
   font-size: .9em;
