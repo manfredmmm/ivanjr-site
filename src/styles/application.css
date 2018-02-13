@@ -78,6 +78,10 @@ a {
   font-size: 1em;
 }
 
+.description {
+  text-align: justify;
+}
+
 .services-list {
   list-style: none;
   margin: 0;
@@ -126,7 +130,7 @@ a {
 
 .profile__image {
   width: 100%;
-  border-radius: 100%;
+  /* border-radius: 100%; */
   border: 1px solid var(--black);
   box-shadow: 0 0 25px 0px var(--green);
 }

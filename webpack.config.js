@@ -1,4 +1,5 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   entry: './src/entry.js',
@@ -33,13 +34,17 @@ module.exports = {
         loader: ['babel-loader', 'eslint-loader']
       }, {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader']
+        use: ExtractTextPlugin.extract({
+          fallback: 'style-loader',
+          use: ['css-loader', 'postcss-loader']
+        })
       }
     ]
   },
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.pug'
-    })
+    }),
+    new ExtractTextPlugin('styles.css')
   ]
 };

@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "ivanjr",
   "version": "1.0.0",
-  "description": "boilerplate",
+  "description": "ivanjr site",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "eslint": "^3.15.0",
+    "extract-text-webpack-plugin": "2.1.2",
     "webpack": "^2.2.1",
     "webpack-validator": "^2.3.0"
   },
